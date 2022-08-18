@@ -1,0 +1,42 @@
+Git/Github:
+
+Enviando infos {
+    git config --global user.name "Lucas Rodrigues"
+    git config --global user.email "lucas.rodd61@gmail.com"
+    git config --global core.editor vscode
+}
+
+Lendo infos {
+    git config core.editor
+    git config user.email
+    git config user.name
+    git config --list (todas as infos)
+}
+
+Iniciar repositório {
+    *navegue até a pasta que deseja e dê o comando git init
+    *após, criará uma pasta oculta chamada .git
+    - crie um arquivo chamado README.MD (usado para apresentação)
+
+}
+
+git commit {
+    enviar os arquivos que você modificou para o git 
+    
+    ex.:
+} 
+
+git status {
+    vai varrer a pasta verificar o que foi modificado;
+} 
+
+Adicionando arquivos no git {
+    git add nomeArquivo 
+
+    ou
+
+    git add -a (adiciona todos os arquivos que não foram sincronizados)
+}
+
+
+
