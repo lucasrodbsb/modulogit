@@ -162,10 +162,10 @@ fetch = puxar as coisas do repositorio remoto pro local;
 push = levar as coisas do repositorio local para o remoto;
 
 
+git revert {
+    voltar já commitando e com acesso aos outros commits
 
-
-    carla, eu tenho aqui três trocadores revisados
-    seminovo tá? no pontinho de instalar funcionando...
-
-    é.. aí eu consigo fazer pra você 50% a vista e o restante
-    a gente pode parcelar aí no boleto ou no cheque, ou cartão
+    git revert --no-edit 38273918273918271928{
+        fazer o commit voltando
+    }
+}
