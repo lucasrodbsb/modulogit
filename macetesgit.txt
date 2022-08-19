@@ -143,7 +143,7 @@ criando repositório no Github:
     }
 
     enviando para o github{
-        "git push -u origin master"
+        git push -u origin master
 
         nesse caso, o "origin" é o lugar aonde eu informo o destino e o "master"
         é qual branch que eu vou enviar
@@ -151,8 +151,11 @@ criando repositório no Github:
         ao enviar, o cmd vai pedir sua autenticação com o github
     }
 
-
 ;
+
+.gitignore {
+    é um arquivo criado para escondermos e ignorarmos ao commitar
+}
 
 
 fetch = puxar as coisas do repositorio remoto pro local;
@@ -160,3 +163,9 @@ push = levar as coisas do repositorio local para o remoto;
 
 
 
+
+    carla, eu tenho aqui três trocadores revisados
+    seminovo tá? no pontinho de instalar funcionando...
+
+    é.. aí eu consigo fazer pra você 50% a vista e o restante
+    a gente pode parcelar aí no boleto ou no cheque, ou cartão
