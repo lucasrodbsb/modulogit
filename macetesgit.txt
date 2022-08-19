@@ -147,6 +147,8 @@ criando repositório no Github:
 
         nesse caso, o "origin" é o lugar aonde eu informo o destino e o "master"
         é qual branch que eu vou enviar
+
+        ao enviar, o cmd vai pedir sua autenticação com o github
     }
 
 
