@@ -107,6 +107,26 @@ criando outros branch {
 
 git diff {
     vai mostrar as alterações mais especificas (detalhadamente)
+
+    git diff --name-only:
+    mostra apenas o nome do arquivo modificado
+
+    para verificar mudanças de arquivos especificos:
+    git diff index.html
+
+
+    para voltar as modificações de um arquivo apenas:
+
+    git checkout HEAD -- NomeDoArquivo
+
+    nesse caso, o HEAD vai substituir o nome da branch
 }
+
+
+criando repositório no Github:
+    
+;
+
+
 
 
