@@ -183,6 +183,29 @@ removendo branches {
     git branch -D nomeBranch
 }
 
-puxando alterações de outras pessoas {
+puxando alterações de outras pessoas (atualizar repositorio local) {
+
+    git pull origin nomeBranch
+
+    **dica: antes de dar um push, sempre dê o git pull para se atualizar com o remoto
+
+}
+
+clonando repositorios remotos {
     
+    cd até a sua pasta criada
+    
+    git clone https://suaurl.com.br
+
+}
+
+contribuindo com outros projetos que não são os nossos (fork / pull request) {
+    fork é quando você pega o projeto de outra pessoa, clona, faz 
+    as alterações e envia de novo pra ela.
+
+    o pull request é quando você pega o seu fork e manda para o dono do projeto para ser validado.
+
+    caso tenha sido aceito, o validador vai fazer um merge e seu fork vai ser adicionado ao projeto original.
+
+    ambos os casos serão enviados o resultado via email.
 }
