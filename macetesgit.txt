@@ -124,9 +124,28 @@ git diff {
 
 
 criando repositório no Github:
-    
+    gere o SSH key pelo git bash com o comando:
+
+    ssh-keygen -t rsa -b 4096 -C "lucas.rodd61@gmail.com"
+
+    depois dê um comando:
+
+    git remote add origin https://github.com/seuUserName/nomeDoRepositorioNoGithub.git
+
+    no caso o comando "origin" é o nome que você vai dar pra ele
+
+    git remote {
+        mostra o nome do repositorio remoto
+
+        git remote -v {
+            mostra mais detalhado
+        }
+    }
 ;
 
+
+fetch = puxar as coisas do repositorio remoto pro local;
+push = levar as coisas do repositorio local para o remoto;
 
 
 
