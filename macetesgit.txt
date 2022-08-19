@@ -24,7 +24,39 @@ git commit {
     enviar os arquivos que você modificou para o git 
     
     ex.:
+        git commit -m "comentário"
+
+        output:
+        [master (root-commit) b066e98] first commit
+        2 files changed, 43 insertions(+)
+        create mode 100644 README.md
+        create mode 100644 macetesgit.txt
+
+
+    git commit -am "comentário" {
+        já adiciona os arquivos não sincronizados e commita ao mesmo tempo
+
+        output:
+        [master e1c051f] adicionando pastas de teste
+        3 files changed, 15 insertions(+), 2 deletions(-)
+        create mode 100644 testestete
+    }
 } 
+
+
+git log {
+    consegue ver todos os commits feitos
+
+    output:
+    commit b066e98e0a5342c9409ce19560cb5f18563b9edc (HEAD -> master)
+    Author: Lucas Rodrigues <lucas.rodd61@gmail.com>
+    Date:   Thu Aug 18 15:27:12 2022 -0300
+
+    first commit
+
+
+    HEAD -> mostra qual branch você está (se está na master ou em alguma outra branch)
+}
 
 git status {
     vai varrer a pasta verificar o que foi modificado;
@@ -35,8 +67,46 @@ Adicionando arquivos no git {
 
     ou
 
-    git add -a (adiciona todos os arquivos que não foram sincronizados)
+    git add -A (adiciona todos os arquivos que não foram sincronizados)
 }
 
+git branch {
+    lista todos os branch existentes no projeto.
+    o branch que estiver com um * antes do nome, é o que estamos modificando
+}
+
+git reset {
+    volta até determinado commit
+
+    exemplo:
+
+    git reset --hard b066e98e0a5342c9409ce19560cb5f18563b9edc
+
+    git reset --soft{
+        volta até determinado commit mas ainda tendo acesso aos commits porém sem ter commitado
+    }
+
+    git reset --mixed{
+        parecido com o -soft, porém precisa dar o git add novamente nos arquivos
+    }
+
+    git reset --hard{
+        ignora tudo depois de certo commit e volta todos os arquivos até o commit selecionado
+    }
+
+    ** mais recomendado usar o -soft quando usado em equipe
+}
+
+
+
+criando outros branch {
+    para criar um novo branch use o comando git branch nomeDaNovaBranch
+
+    para trocar de branch usamos o git checkout nomeDaNovaBranch
+}
+
+git diff {
+    vai mostrar as alterações mais especificas (detalhadamente)
+}
 
 
