@@ -169,3 +169,20 @@ git revert {
         fazer o commit voltando
     }
 }
+
+removendo branches {
+
+    removendo do repositorio remoto:
+
+    git push origin :nomeBranch
+
+    o ":" é usado para deletar não só branches como commits, tags, etc
+
+    deletando branch local:
+
+    git branch -D nomeBranch
+}
+
+puxando alterações de outras pessoas {
+    
+}
