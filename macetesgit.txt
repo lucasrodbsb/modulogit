@@ -141,6 +141,15 @@ criando repositório no Github:
             mostra mais detalhado
         }
     }
+
+    enviando para o github{
+        "git push -u origin master"
+
+        nesse caso, o "origin" é o lugar aonde eu informo o destino e o "master"
+        é qual branch que eu vou enviar
+    }
+
+
 ;
 
 
