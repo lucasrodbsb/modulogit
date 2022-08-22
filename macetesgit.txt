@@ -209,3 +209,8 @@ contribuindo com outros projetos que não são os nossos (fork / pull request) {
 
     ambos os casos serão enviados o resultado via email.
 }
+
+
+
+mais dicas que não estavam no curso:
+https://blog.dankicode.com/dicas-de-git-e-github/#saber
